@@ -20,6 +20,63 @@ img {
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 80px;
+    height: 154px;
+    border: 1px solid rgb(51, 5, 5);
+    margin: 2rem auto;
+}
+
+.container > div {
+width: 50px;
+height: 50px;
+border: 1px solid rgb(103, 16, 16);
+border-radius: 50%;
+margin: 0 auto;
+}
+
+#brown {
+    background-color: brown;
+    position: relative;
+    left: -200px;
+    animation: brown 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes brown {         
+    50% {left : 0;}
+}
+
+#yellow {
+    background-color: rgb(252, 252, 1);
+    position: relative;
+    animation: yellow 5s ease-in-out forwards;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yellow {
+    50%{opacity: 1;}
+}
+
+#green {
+    background-color: green;
+    animation: green 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    transform: rotateX(180deg);
+}
+
+@keyframes green {
+    50%{transform: rotate(180deg);}
+}
+
 .footer {
     text-align: center;
 }
