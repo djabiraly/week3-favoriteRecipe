@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Crimson+Text:ital,wght@1,700&display=swap');
+
+
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    frontsize: 2ram;
+    font-family: 'Caveat', cursive;
+    color: rgb(54, 12, 12);
+}
+
+
+.footer {
+    text-align: center;
+}
